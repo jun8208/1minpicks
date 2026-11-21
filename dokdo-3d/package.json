@@ -1,0 +1,15 @@
+{
+  "name": "dokdo-3d",
+  "private": true,
+  "type": "module",
+  "description": "독도 해산(바다 밑 독도)의 크기를 보여 주는 3D 영상",
+  "scripts": {
+    "data": "python3 tools/build_data.py raw data",
+    "serve": "node tools/serve.mjs",
+    "render": "node tools/render.mjs"
+  },
+  "dependencies": {
+    "pretendard": "^1.3.9",
+    "three": "^0.170.0"
+  }
+}

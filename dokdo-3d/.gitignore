@@ -1,0 +1,6 @@
+node_modules/
+raw/
+out/frames_*/
+out/still_*
+out/sheet_*
+out/*.log

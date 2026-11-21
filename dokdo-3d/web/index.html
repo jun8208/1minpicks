@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>바다 밑의 독도 — 독도 해산 3D</title>
+<link rel="stylesheet" href="./style.css">
+<script type="importmap">
+{ "imports": {
+    "three": "../node_modules/three/build/three.module.js",
+    "three/addons/": "../node_modules/three/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="stage">
+  <div id="bg-studio"></div>
+  <div id="bg-sky"></div>
+  <canvas id="gl"></canvas>
+  <div id="vignette"></div>
+  <svg id="lines" xmlns="http://www.w3.org/2000/svg"></svg>
+  <div id="labels"></div>
+  <div id="captions"></div>
+  <div id="fade"></div>
+</div>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
