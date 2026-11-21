@@ -68,6 +68,7 @@ npm run serve                     # http://127.0.0.1:8080 에서 실시간 미�
 
 렌더링에는 Node.js, Playwright(Chromium), ffmpeg 가 필요합니다. GPU 없이 소프트웨어 렌더링으로
 영상 하나에 15분쯤 걸립니다. `--stills 3,24,34` 처럼 주면 그 시각의 정지 화면만 PNG 로 뽑습니다.
+일부 구간만 고칠 때는 `--keep-frames` 로 프레임을 남겨 둔 뒤 `--patch --from 20 --to 28` 처럼 그 구간만 다시 그릴 수 있습니다.
 
 원본 자료부터 다시 만들려면 (`pip install numpy scipy pillow contourpy` 필요):
 
